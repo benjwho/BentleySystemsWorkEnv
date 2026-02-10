@@ -1,12 +1,21 @@
 # Runtime and generated logs
+Logs/
 Logs/NWC_Rehab/*.txt
 Logs/NWC_Rehab/Python/
+Logs/NWC_Rehab/**/*.txt
+Logs/NWC_Rehab/**/*.csv
+Logs/NWC_Rehab/**/*.json
+Logs/NWC_Rehab/**/*.png
+Logs/NWC_Rehab/**/*.log
 
 # Local backup archives and transient backups
 _Backups/cleanup_archive/
 _Backups/**/*.bak.*
 
+# DotNet build artifacts
+Configuration/Automation/DotNet/**/bin/
+Configuration/Automation/DotNet/**/obj/
+
 # Editor and OS noise
 .DS_Store
 Thumbs.db
-

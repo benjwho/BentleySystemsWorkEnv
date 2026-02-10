@@ -36,7 +36,40 @@
         "${workspaceFolder}\\Configuration\\Automation\\PowerShell\\INWC.PythonSmoke.ps1"
       ],
       "problemMatcher": []
+    },
+    {
+      "label": "INWC: CLI Check Env",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}\\Configuration\\Automation\\DotNet\\INWC.Automation.Cli\\INWC.Automation.Cli.csproj",
+        "--",
+        "check",
+        "env",
+        "--tech-root",
+        "${workspaceFolder}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "INWC: CLI Full Health (Safe)",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}\\Configuration\\Automation\\DotNet\\INWC.Automation.Cli\\INWC.Automation.Cli.csproj",
+        "--",
+        "check",
+        "full-health",
+        "--skip-python-runtime-test",
+        "--skip-projectwise-write-test",
+        "--tech-root",
+        "${workspaceFolder}"
+      ],
+      "problemMatcher": []
     }
   ]
 }
-
