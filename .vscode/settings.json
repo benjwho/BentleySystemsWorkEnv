@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "C:\\ProgramData\\Bentley\\PowerPlatformPython\\python\\python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}\\Configuration\\Automation\\Python"
+  ],
+  "terminal.integrated.env.windows": {
+    "INWC_PYTHON_EXE": "C:\\ProgramData\\Bentley\\PowerPlatformPython\\python\\python.exe"
+  }
+}
+

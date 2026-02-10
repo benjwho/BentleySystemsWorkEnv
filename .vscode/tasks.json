@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "INWC: Python Version (Bentley)",
+      "type": "shell",
+      "command": "C:\\ProgramData\\Bentley\\PowerPlatformPython\\python\\python.exe",
+      "args": [
+        "--version"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "INWC: Run Active Python File (Bentley)",
+      "type": "shell",
+      "command": "C:\\ProgramData\\Bentley\\PowerPlatformPython\\python\\python.exe",
+      "args": [
+        "${file}"
+      ],
+      "options": {
+        "env": {
+          "INWC_PYTHON_EXE": "C:\\ProgramData\\Bentley\\PowerPlatformPython\\python\\python.exe"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "INWC: Python Smoke Check",
+      "type": "shell",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\Configuration\\Automation\\PowerShell\\INWC.PythonSmoke.ps1"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
+

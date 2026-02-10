@@ -1,0 +1,12 @@
+# Runtime and generated logs
+Logs/NWC_Rehab/*.txt
+Logs/NWC_Rehab/Python/
+
+# Local backup archives and transient backups
+_Backups/cleanup_archive/
+_Backups/**/*.bak.*
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+
