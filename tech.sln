@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet", "DotNet", "{588E74B8-F68D-B69A-9A06-39628DC85EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INWC.Automation.Cli", "Configuration\Automation\DotNet\INWC.Automation.Cli\INWC.Automation.Cli.csproj", "{5FD638C7-A226-4086-94D3-B0DC92939F1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INWC.Automation.Cli", "Automation\DotNet\INWC.Automation.Cli\INWC.Automation.Cli.csproj", "{5FD638C7-A226-4086-94D3-B0DC92939F1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,7 +38,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6CAE0398-6DB7-4697-6304-D5D287C87D9F} = {1ED04488-230B-86DB-8CF1-429704D2F8F4}
 		{588E74B8-F68D-B69A-9A06-39628DC85EDE} = {6CAE0398-6DB7-4697-6304-D5D287C87D9F}
 		{5FD638C7-A226-4086-94D3-B0DC92939F1E} = {588E74B8-F68D-B69A-9A06-39628DC85EDE}
 	EndGlobalSection

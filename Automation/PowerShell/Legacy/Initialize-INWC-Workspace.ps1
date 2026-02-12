@@ -103,7 +103,7 @@ $directories = @(
     @{ Path = "$TechRoot\Configuration\Organization\ByFunction\Exports"; Desc = "Export standards folder" }
     @{ Path = "$TechRoot\Configuration\WorkSpaces"; Desc = "Workspaces folder" }
     @{ Path = "$TechRoot\Configuration\WorkSets"; Desc = "WorkSets folder" }
-    @{ Path = "$TechRoot\Configuration\Automation\PowerShell"; Desc = "PowerShell automation" }
+    @{ Path = "$TechRoot\Automation\PowerShell"; Desc = "PowerShell automation" }
     @{ Path = "$TechRoot\Projects\NWC_Rehab\Models"; Desc = "NWC_Rehab Models folder" }
     @{ Path = "$TechRoot\Projects\NWC_Rehab\Sheets"; Desc = "NWC_Rehab Sheets folder" }
     @{ Path = "$TechRoot\Projects\NWC_Rehab\Exports"; Desc = "NWC_Rehab Exports folder" }

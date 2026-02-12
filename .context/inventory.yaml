@@ -1,0 +1,198 @@
+Automation:
+  DotNet:
+    INWC.Automation.Cli:
+      Application:
+        CommandDispatcher.cs: null
+        Interfaces:
+          IBackupRestoreService.cs: null
+          ICommandUseCase.cs: null
+          IHealthCheckRunner.cs: null
+          IPickerAuditService.cs: null
+          IRepairService.cs: null
+          IResetRebuildService.cs: null
+          IRuntimeBridgeService.cs: null
+        Runtime:
+          RuntimeUseCases.cs: null
+        UseCases:
+          AuditPickerUseCase.cs: null
+          CheckEnvUseCase.cs: null
+          CheckFullHealthUseCase.cs: null
+          CheckHelpers.cs: null
+          CheckIntegrationUseCase.cs: null
+          DetectIntegrationsUseCase.cs: null
+          FixPickerRootsUseCase.cs: null
+          InitWorkspaceReportUseCase.cs: null
+          MutationUseCases.cs: null
+          SmokeProjectWiseUseCase.cs: null
+          SmokePythonUseCase.cs: null
+      Catalog:
+        AppCatalog.cs: null
+        IntegrationDetectionCatalog.cs: null
+        ProductConfigCatalog.cs: null
+      Cli:
+        CliParser.cs: null
+        CliParseResult.cs: null
+        UsageWriter.cs: null
+      Compatibility:
+        ArtifactPathPolicy.cs: null
+        ExitCodePolicy.cs: null
+        LegacyScriptBridge.cs: null
+      Domain:
+        Models:
+          CheckRecord.cs: null
+          CommandContext.cs: null
+          CommandId.cs: null
+          CommandOptions.cs: null
+          CommandResult.cs: null
+          GlobalOptions.cs: null
+          PickerAuditModels.cs: null
+        Runtime:
+          RuntimeEventModels.cs: null
+          RuntimeQueueModels.cs: null
+          RuntimeRulesModels.cs: null
+      Infrastructure:
+        Audit:
+          AppSessionRunner.cs: null
+          AuditLogger.cs: null
+          DiagnosticsExporter.cs: null
+          PickerAuditService.cs: null
+          ReadinessSignalMonitor.cs: null
+        Config:
+          ConfigFileReader.cs: null
+        Output:
+          ResultWriter.cs: null
+        Processes:
+          HealthCheckRunner.cs: null
+          LegacyBackedServices.cs: null
+          ProcessRunner.cs: null
+        Runtime:
+          Execution:
+            RuntimeActionExecutor.cs: null
+            RuntimeMutationClassifier.cs: null
+          Rules:
+            RuntimeRulesLoader.cs: null
+          RuntimeAgentEngine.cs: null
+          RuntimeBridgeService.cs: null
+          RuntimeConstants.cs: null
+          RuntimeEventLogger.cs: null
+          RuntimeEventPlanner.cs: null
+          RuntimeEventWatchers.cs: null
+          RuntimeManagementService.cs: null
+          RuntimePathProvider.cs: null
+          RuntimeQueueStore.cs: null
+          RuntimeSelfInvocation.cs: null
+          RuntimeServiceCoordinator.cs: null
+          RuntimeStateStore.cs: null
+          RuntimeWindowsServiceHost.cs: null
+        System:
+          ExecutableResolver.cs: null
+          FileNameUtil.cs: null
+          ScreenshotService.cs: null
+          TechRootResolver.cs: null
+          TextFileMutator.cs: null
+          WindowManager.cs: null
+      INWC.Automation.Cli.csproj: null
+      Program.cs: null
+  PowerShell:
+    Initialize-INWC-Workspace.ps1: null
+    INWC.BackupRestore.ps1: null
+    INWC.CliShim.ps1: null
+    INWC.DetectIntegrations.ps1: null
+    INWC.EnvCheck.ps1: null
+    INWC.FullHealthCheck.ps1: null
+    INWC.IntegrationCheck.ps1: null
+    INWC.PickerAudit.ps1: null
+    INWC.ProjectWiseSmoke.ps1: null
+    INWC.PythonSmoke.ps1: null
+    INWC.Repair.ps1: null
+    INWC.ResetRebuild.ps1: null
+    INWC.WorkspacePickerFix.ps1: null
+    Legacy:
+      Initialize-INWC-Workspace.ps1: null
+      INWC.BackupRestore.ps1: null
+      INWC.DetectIntegrations.ps1: null
+      INWC.EnvCheck.ps1: null
+      INWC.FullHealthCheck.ps1: null
+      INWC.IntegrationCheck.ps1: null
+      INWC.PickerAudit.ps1: null
+      INWC.ProjectWiseSmoke.ps1: null
+      INWC.PythonSmoke.ps1: null
+      INWC.Repair.ps1: null
+      INWC.ResetRebuild.ps1: null
+      INWC.WorkspacePickerFix.ps1: null
+Configuration:
+  Organization:
+    ByDiscipline:
+      Civil:
+        Civil_Colors.tbl: null
+        Civil_PlotStyles.cfg: null
+        Civil_Standards.cfg: null
+      Geotechnical:
+        Geotech_Standards.cfg: null
+      Plant:
+        OpenPlant_Standards.cfg: null
+      Structures:
+        Structural_Standards.cfg: null
+      Utilities:
+        Utilities_Standards.cfg: null
+    ByFunction:
+      Automation:
+        Python_Integration.cfg: null
+      DocumentManagement:
+        ProjectWiseDrive_Integration.cfg: null
+      Exports:
+        Export_Standards.cfg: null
+      Geospatial:
+        OpenCities_Integration.cfg: null
+      Reality:
+        Descartes_Integration.cfg: null
+        iTwinCapture_Integration.cfg: null
+      Scheduling:
+        SYNCHRO_Integration.cfg: null
+    ByProject:
+      NWC_Rehab:
+        Colors.tbl: null
+        NWC_Rehab_Organization.cfg: null
+        PlotStyles.cfg: null
+        Reports_Config.cfg: null
+    Interoperability:
+      Interoperability.cfg: null
+    Pltcfg:
+      pdf.pltcfg: null
+  Standards:
+    Cells:
+      Civil_Cells.cel: null
+      NWC_Rehab_Cells.cel: null
+    Dgnlib:
+      Civil_Symbols.dgn: null
+      Printing:
+        README.txt: null
+    Fonts:
+      NWC_Rehab_Fonts.rsc: null
+    LineStyles:
+      NWC_Rehab_LineStyles.rsc: null
+    Reports:
+      Civil_Reports.cfg: null
+      DesignScripts:
+        Civil:
+          civil-default.txt: null
+        default.txt: null
+      PenTables:
+        Civil:
+          civil-default.tbl: null
+        default.tbl: null
+      PrintDefs:
+        Civil:
+          civil-default.pset: null
+        default.pset: null
+    Seed:
+      Civil_Seed.dgn: null
+      NWC_Rehab_Seed.dgn: null
+  WorkSets:
+    NWC_Rehab.cfg: null
+    NWC_Rehab.dgnws: null
+  WorkSpaces:
+    INWC_RH.cfg: null
+  WorkSpaceSetup.cfg: null
+README.md: null
+tech.sln: null

@@ -33,7 +33,7 @@
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "${workspaceFolder}\\Configuration\\Automation\\PowerShell\\INWC.PythonSmoke.ps1"
+        "${workspaceFolder}\\Automation\\PowerShell\\INWC.PythonSmoke.ps1"
       ],
       "problemMatcher": []
     },
@@ -44,7 +44,7 @@
       "args": [
         "run",
         "--project",
-        "${workspaceFolder}\\Configuration\\Automation\\DotNet\\INWC.Automation.Cli\\INWC.Automation.Cli.csproj",
+        "${workspaceFolder}\\Automation\\DotNet\\INWC.Automation.Cli\\INWC.Automation.Cli.csproj",
         "--",
         "check",
         "env",
@@ -60,7 +60,7 @@
       "args": [
         "run",
         "--project",
-        "${workspaceFolder}\\Configuration\\Automation\\DotNet\\INWC.Automation.Cli\\INWC.Automation.Cli.csproj",
+        "${workspaceFolder}\\Automation\\DotNet\\INWC.Automation.Cli\\INWC.Automation.Cli.csproj",
         "--",
         "check",
         "full-health",

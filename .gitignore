@@ -13,8 +13,8 @@ _Backups/cleanup_archive/
 _Backups/**/*.bak.*
 
 # DotNet build artifacts
-Configuration/Automation/DotNet/**/bin/
-Configuration/Automation/DotNet/**/obj/
+Automation/DotNet/**/bin/
+Automation/DotNet/**/obj/
 
 # Editor and OS noise
 .DS_Store

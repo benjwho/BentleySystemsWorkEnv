@@ -9,7 +9,7 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$scriptRoot = Join-Path $TechRoot "Configuration\Automation\PowerShell"
+$scriptRoot = Join-Path $TechRoot "Automation\PowerShell"
 $logRoot = Join-Path $TechRoot "Logs\NWC_Rehab"
 if (!(Test-Path $logRoot)) {
   New-Item -Path $logRoot -ItemType Directory -Force | Out-Null

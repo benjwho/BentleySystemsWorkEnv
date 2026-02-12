@@ -13,12 +13,12 @@ function Invoke-INWCCli {
   )
 
   $resolvedRoot = (Resolve-Path -LiteralPath $TechRoot -ErrorAction Stop).Path
-  $projectPath = Join-Path $resolvedRoot 'Configuration\Automation\DotNet\INWC.Automation.Cli\INWC.Automation.Cli.csproj'
+  $projectPath = Join-Path $resolvedRoot 'Automation\DotNet\INWC.Automation.Cli\INWC.Automation.Cli.csproj'
 
   $candidateExes = @(
-    (Join-Path $resolvedRoot 'Configuration\Automation\DotNet\INWC.Automation.Cli\bin\Release\net8.0-windows\win-x64\publish\inwc-cli.exe'),
-    (Join-Path $resolvedRoot 'Configuration\Automation\DotNet\INWC.Automation.Cli\bin\Release\net8.0-windows\inwc-cli.exe'),
-    (Join-Path $resolvedRoot 'Configuration\Automation\DotNet\INWC.Automation.Cli\bin\Debug\net8.0-windows\inwc-cli.exe')
+    (Join-Path $resolvedRoot 'Automation\DotNet\INWC.Automation.Cli\bin\Release\net8.0-windows\win-x64\publish\inwc-cli.exe'),
+    (Join-Path $resolvedRoot 'Automation\DotNet\INWC.Automation.Cli\bin\Release\net8.0-windows\inwc-cli.exe'),
+    (Join-Path $resolvedRoot 'Automation\DotNet\INWC.Automation.Cli\bin\Debug\net8.0-windows\inwc-cli.exe')
   )
 
   $args = New-Object System.Collections.Generic.List[string]
